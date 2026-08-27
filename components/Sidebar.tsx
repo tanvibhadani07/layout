@@ -11,7 +11,7 @@ export default function Sidebar() {
 
   return (
     <>
-      {/* Mobile top bar */}
+    
       <div className="flex items-center justify-between border-b border-gray-200 bg-white px-4 py-3 md:hidden">
         <h2 className="text-lg font-semibold text-gray-900"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoz5uU8GMdeKq8-m9QV3JNS_1ws_n3z_zaCqz0aSLR5g&s" alt="" /></h2>
         <button
@@ -24,7 +24,7 @@ export default function Sidebar() {
         </button>
       </div>
 
-      {/* Mobile overlay */}
+   
       {open && (
         <div
           className="fixed inset-0 z-40 bg-slate-900/40 backdrop-blur-sm md:hidden"
@@ -40,7 +40,7 @@ export default function Sidebar() {
         }`}
       >
         <div className="flex items-center justify-between px-6 pt-6 pb-5">
-        <h2 className="text-lg font-semibold text-gray-900">Logo</h2>
+        <h2 className="text-lg font-semibold text-gray-900">icon</h2>
           <button
             type="button"
             onClick={() => setOpen(false)}
