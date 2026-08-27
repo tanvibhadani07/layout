@@ -47,7 +47,7 @@ export default function Sidebar() {
             className="rounded-md p-1 text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 md:hidden"
             aria-label="Close sidebar"
           >
-            <X className="h-5 w-5" />
+            {/* <X className="h-5 w-5" /> */}
           </button>
         </div>
 
