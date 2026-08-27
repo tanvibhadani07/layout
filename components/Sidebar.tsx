@@ -13,7 +13,7 @@ export default function Sidebar() {
     <>
       {/* Mobile top bar */}
       <div className="flex items-center justify-between border-b border-gray-200 bg-white px-4 py-3 md:hidden">
-        <h2 className="text-lg font-semibold text-gray-900"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoz5uU8GMdeKq8-m9QV3JNS_1ws_n3z_zaCqz0aSLR5g&s" alt="" /></h2>
+        <h2 className="text-lg font-semibold text-gray-900">Logo</h2>
         <button
           type="button"
           onClick={() => setOpen(true)}
