@@ -24,6 +24,8 @@
    - Network Access → allow your IP (or `0.0.0.0/0` for dev)
 5. Restart your dev server so the new env var loads:
    ```bash
+   git clone https://github.com/tanvibhadani07/layout.git
+   npm install
    npm run dev
    ```
 6. Visit `/team` to add and view users, or test the API directly:
